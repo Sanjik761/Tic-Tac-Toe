@@ -78,4 +78,12 @@ function noneFunctionX() {
     });
 }
 
+function noneFunctionO() {
+    katak.forEach((item) => {
+        if (item.textContent == "" || item.textContent == "X") {
+            item.textContent = none;
+        }
+    });
+}
+
 
