@@ -34,3 +34,13 @@ O.addEventListener("click", () => {
     btns.style.cssText = "display: none"
 });
 
+let winningPosition = [
+    [one, two, three],
+    [four, five, six],
+    [seven, eight, nine],
+    [one, four, seven],
+    [two, five, eight],
+    [three, six, nine],
+    [one, five, nine],
+    [three, five, seven]
+];
