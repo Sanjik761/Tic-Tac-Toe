@@ -69,3 +69,13 @@ function win() {
     });
 }
 
+
+function noneFunctionX() {
+    katak.forEach((item) => {
+        if (item.textContent == "" || item.textContent == "O") {
+            item.textContent = none;
+        }
+    });
+}
+
+
