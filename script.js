@@ -27,3 +27,10 @@ X.addEventListener("click", () => {
     user2 = "O"
     btns.style.cssText = "display: none"
 });
+
+O.addEventListener("click", () => {
+    user1 = "O"
+    user2 = "X"
+    btns.style.cssText = "display: none"
+});
+
