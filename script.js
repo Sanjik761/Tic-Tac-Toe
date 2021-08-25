@@ -107,3 +107,21 @@ katak.forEach((item) => {
 });
 
 
+function restart() {
+    katak.forEach((item) => {
+        item.textContent = ""
+    });
+    round = 0;
+    count = 1;
+    btns.style.cssText = "display: block";
+    draw.style.cssText = "display: block;";
+    next.style.cssText = "display: none;";
+    win1.style.cssText = "display: none;";
+    win2.style.cssText = "display: none;";
+    tie.style.cssText = "display: none;";
+    katak.forEach((item) => {
+        item.style.cssText = "color: white;"
+    })
+}
+
+
