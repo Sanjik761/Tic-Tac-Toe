@@ -22,3 +22,13 @@ h1 {
     padding: 10;
 }
 
+td {
+    height: 80px; 
+    width: 120px;
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
