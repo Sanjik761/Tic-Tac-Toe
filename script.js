@@ -19,5 +19,11 @@ let nine = document.querySelector(".nine");
 let win1 = document.querySelector(".win1");
 let win2 = document.querySelector(".win2");
 let tie = document.querySelector(".tie");
-let next = document.querySelector(".next"); 
-let draw = document.querySelector(".draw"); 
+let next = document.querySelector(".next");
+let draw = document.querySelector(".draw");
+
+X.addEventListener("click", () => {
+    user1 = "X"
+    user2 = "O"
+    btns.style.cssText = "display: none"
+});
