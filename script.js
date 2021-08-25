@@ -86,4 +86,24 @@ function noneFunctionO() {
     });
 }
 
+let round = 0;
+katak.forEach((item) => {
+    item.addEventListener("click", (e) => {
+        if (item.textContent == "") {
+            if (count % 2 == 1) {
+                item.textContent = user1
+            } else if (count % 2 == 0) {
+                item.textContent = user2
+            }
+            count++;
+            win()
+            if (count == 10) {
+                tie.style.cssText = "display: block;";
+                next.style.cssText = "display: block";
+                draw.style.cssText = "display: none;";
+            }
+        }
+    });
+});
+
 
