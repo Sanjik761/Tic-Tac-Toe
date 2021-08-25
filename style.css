@@ -32,3 +32,68 @@ td {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.one,
+.two,
+.four,
+.five, 
+.seven,
+.eight {
+    border-right: 5px solid rgb(108, 235, 252);
+}
+
+.one,
+.two,
+.three,
+.four,
+.five,
+.six {
+    border-bottom: 5px solid rgb(108, 235, 252);
+
+}
+
+.win1,
+.win2,
+.tie {
+    display: none;
+    color: aqua;
+    font-size: 1,5em;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+h4{
+    color: burlywood;
+    padding: 10;
+    margin: 0;
+}
+
+.next {
+    width: 200px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    color: honeydew; 
+    background-color: yellowgreen;
+    cursor: pointer;
+    display: none;
+    margin: 30px 0;
+}
+
+.btns {
+    margin-bottom: 20px;
+}
+
+.xBtn,
+.oBtn {
+    width: 50px;
+    height: 27px;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: chartreuse;
+    border: none;
+    border-radius: 5px;
+    color:indianred;
+}
+
