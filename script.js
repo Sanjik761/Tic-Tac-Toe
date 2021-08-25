@@ -44,3 +44,28 @@ let winningPosition = [
     [one, five, nine],
     [three, five, seven]
 ];
+
+function win() {
+    winningPosition.forEach((item) => {
+        for (let i = 0; i < item.length; i++) {
+            if (item[0].textContent == "X" && item[1].textContent == "X" && item[2].textContent == "X") {
+                win1.style.cssText = "display: block;";
+                item[0].style.cssText = "color: red;";
+                item[1].style.cssText = "color: red;";
+                item[2].style.cssText = "color: red;";
+                draw.style.cssText = "display: none;";
+                next.style.cssText = "display: block;";
+                noneFunctionX();
+            } else if (item[0].textContent == "O" && item[1].textContent == "O" && item[2].textContent == "O") {
+                win2.style.cssText = "display: block;";
+                item[0].style.cssText = "color: red;";
+                item[1].style.cssText = "color: red;";
+                item[2].style.cssText = "color: red;";
+                draw.style.cssText = "display: none;";
+                next.style.cssText = "display: block;";
+                noneFunctionO();
+            }
+        }
+    });
+}
+
