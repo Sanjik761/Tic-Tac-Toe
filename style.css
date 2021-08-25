@@ -1,35 +1,35 @@
 body {
-    height: 95vh;
-    background-color: rgb(2, 139, 194);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  height: 95vh;
+  background-color: rgb(2, 139, 194);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 section {
-    border: 9px solid burlywood;
-    padding: 16px;
-    border-radius: 15px;
+  border: 9px solid burlywood;
+  padding: 16px;
+  border-radius: 15px;
 }
 
 h3,
 h1 {
-    text-align: center;
-    color: rgb(130, 240, 255);
-    padding: 30px;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-    padding: 10;
+  text-align: center;
+  color: rgb(130, 240, 255);
+  padding: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 10;
 }
 
 td {
-    height: 80px; 
-    width: 120px;
-    text-align: center;
-    font-size: 3em;
-    font-weight: bold;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
+  height: 80px; 
+  width: 120px;
+  text-align: center;
+  font-size: 3em;
+  font-weight: bold;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .one,
@@ -38,7 +38,7 @@ td {
 .five, 
 .seven,
 .eight {
-    border-right: 5px solid rgb(108, 235, 252);
+  border-right: 5px solid rgb(108, 235, 252);
 }
 
 .one,
@@ -47,53 +47,52 @@ td {
 .four,
 .five,
 .six {
-    border-bottom: 5px solid rgb(108, 235, 252);
-
+  border-bottom: 5px solid rgb(108, 235, 252);
 }
 
 .win1,
 .win2,
 .tie {
-    display: none;
-    color: aqua;
-    font-size: 1,5em;
-    font-family: sans-serif;
-    margin: 0;
+  display: none;
+  color: aqua;
+  font-size: 1,5em;
+  font-family: sans-serif;
+  margin: 0;
 }
 
 h4{
-    color: burlywood;
-    padding: 10;
-    margin: 0;
+  color: burlywood;
+  padding: 10;
+  margin: 0;
 }
 
 .next {
-    width: 200px;
-    height: 40px;
-    font-size: 16px;
-    font-weight: bold;
-    border-radius: 10px;
-    border: none;
-    color: honeydew; 
-    background-color: yellowgreen;
-    cursor: pointer;
-    display: none;
-    margin: 30px 0;
+  width: 200px;
+  height: 40px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 10px;
+  border: none;
+  color: honeydew; 
+  background-color: yellowgreen;
+  cursor: pointer;
+  display: none;
+  margin: 30px 0;
 }
 
 .btns {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .xBtn,
 .oBtn {
-    width: 50px;
-    height: 27px;
-    font-weight: bold;
-    font-size: 18px;
-    background-color: chartreuse;
-    border: none;
-    border-radius: 5px;
-    color:indianred;
+  width: 50px;
+  height: 27px;
+  font-weight: bold;
+  font-size: 18px;
+  background-color: chartreuse;
+  border: none;
+  border-radius: 5px;
+  color:indianred;
 }
 
